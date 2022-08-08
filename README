@@ -1,0 +1,24 @@
+Name : Curly Zhao
+Lab Section : CPE-464-02
+
+sample run:
+>make
+
+on unix2
+>./server 54321
+
+on unix3
+>./cclient client1 unix2 54321
+>$: %m 1 client2 hello client2
+
+on unix4
+>./cclient client2 unix2 54321
+>$: %b hello world
+
+on unix5
+>./cclient client3 unix2 54321
+>$: %l
+>$: %e
+
+
+
